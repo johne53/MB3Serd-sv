@@ -1,0 +1,46 @@
+// Microsoft Visual C++ generated resource script.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION @SERD_MAJOR_VERSION@,@SERD_MINOR_VERSION@,@SERD_MICRO_VERSION@,@SERD_INTERFACE_AGE@
+  PRODUCTVERSION @SERD_MAJOR_VERSION@,@SERD_MINOR_VERSION@,@SERD_MICRO_VERSION@,@SERD_INTERFACE_AGE@
+  FILEFLAGSMASK 0
+  FILEFLAGS 0
+  FILEOS VOS__WINDOWS32
+  FILETYPE VFT_DLL
+  FILESUBTYPE VFT2_UNKNOWN
+  BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+      BLOCK "040904B0"
+      BEGIN
+	VALUE "CompanyName", "Harrison Consoles Inc."
+	VALUE "FileDescription", "Libserd for Ardour and Mixbus"
+	VALUE "FileVersion", "@SERD_VERSION@.0"
+	VALUE "InternalName", "libserd-@LT_CURRENT_MINUS_AGE@"
+	VALUE "LegalCopyright", "Copyright David Robillard © 2011-2015"
+	VALUE "LegalTrademarks", "Harrison and Mixbus are trademarks of Harrison Audio LLC"
+	VALUE "OriginalFilename", "libserd-@LT_CURRENT_MINUS_AGE@.dll"
+	VALUE "ProductName", "serd"
+	VALUE "ProductVersion", "@SERD_MAJOR_VERSION@, @SERD_MINOR_VERSION@, @SERD_MICRO_VERSION@, @SERD_INTERFACE_AGE@"
+	VALUE "SpecialBuild", "Built for Microsoft Windows by John Emmas - (© 2015)"
+      END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+      VALUE "Translation", 0x409, 1200
+    END
+  END
+
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\0"
+END
